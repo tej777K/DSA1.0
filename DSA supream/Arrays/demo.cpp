@@ -106,21 +106,175 @@ using namespace std;
 
 // Extresm print in an array 
 
-void extream(int arr[],int size){
+// void extream(int arr[],int size){
 
-    // for odd array use if condition 
-    int left = 0;
-    int right = size -1;
-    while(left<=right){
-        cout<<arr[left]<<" ";
-        cout<<arr[right]<<" ";
-        left++;
-        right--;
-    }
-}
+//     // for odd array use if condition 
+//     int left = 0;
+//     int right = size -1;
+//     while(left<=right){
+//         cout<<arr[left]<<" ";
+//         cout<<arr[right]<<" ";
+//         left++;
+//         right--;
+//     }
+// }
 
-int main(){
-    int arr[]={10,20,30,40,50};
-    int size =5;
-     extream(arr,size);
-}
+// int main(){
+//     int arr[]={10,20,30,40,50};
+//     int size =5;
+//      extream(arr,size);
+// }
+
+
+//Call by value and call by reference 
+
+
+// int fun(int&k){
+//   k++;
+//     return k;
+// }
+
+// int main(){
+//     int n =5 ;
+//     fun(n);
+//     cout<<n;
+// }
+
+// Find the Unique elements in array
+
+// int unique(int arr[] , int n){
+//     int ans =0 ;
+//     for(int i=0 ;i <n ; i++){
+//          ans = ans ^ arr[i];
+//     }
+//     return ans;
+// }
+
+// int main(){
+//     int arr[]={2,10,11,10,2,13,15,13,15};
+//     int n =9;
+
+//     int finalans = unique(arr,n);
+//     cout<<"Unique Number is : "<<finalans;
+// }
+
+
+//print all pairs in array 
+
+// int main(){
+//     int arr[] ={10,20,30};
+//     int n=3;
+
+//     for(int i=0; i<n ; i++){
+//         for(int j=0 ; j<n ; j++){
+//             cout<<arr[i]<<","<<arr[j]<<endl;
+//         }
+//     }
+// }
+
+// pairs sum in an array 
+
+
+// int main(){
+//     int arr[]={10,20,30};
+//     int n =3;
+// int sum =0;
+//      for(int i=0; i<n ; i++){
+//         for(int j=0 ; j<n ; j++){
+//             cout<<arr[i]+arr[j]<<endl;
+//         }
+//     }
+
+// }
+
+// print all triplets in an array
+
+
+// int main(){
+//     int arr[] ={10,20,30};
+//     int n=3;
+
+//     for(int i=0; i<n ; i++){
+//         for(int j=0 ; j<n ; j++){
+//             for(int k=0 ; k<n ;k++){
+//                 cout<<arr[i]<<","<<arr[j]<<","<<arr[k]<<endl;
+//             }
+//         }
+//     }
+// }
+
+
+//Sort 0's and 1's in an array
+ 
+ 
+//  void sortZO(int arr[] , int n){
+//      int countz=0;
+//     int counto=0;
+//     for(int i =0 ; i<n ;i++){
+//         if(arr[i]==0){
+//             countz++;
+//         }
+//         else if (arr[i]==1)
+//         {
+//             counto++;
+//         }
+        
+//     }
+
+
+//     for(int i=0,j=n-1;i<countz,j<i;i++,j--){
+//         arr[i]=0;
+//         arr[j]=1;
+//     }
+//   for(int i=0 ; i<n ; i++){
+//         cout<<arr[i]<<" ";
+//     }  
+//  }
+ 
+//  int main(){
+//     int arr[]={0,1,0,0,0,1,1,0,0};
+//     int n=9;
+    
+//     sortZO(arr,n);
+
+    
+//  }
+
+
+// #include <iostream>
+
+// void sortZO(int arr[], int n) {
+//     int countz = 0;
+//     int counto = 0;
+    
+//     // Count the number of 0s and 1s in the array
+//     for (int i = 0; i < n; i++) {
+//         if (arr[i] == 0) {
+//             countz++;
+//         } else if (arr[i] == 1) {
+//             counto++;
+//         }
+//     }
+
+//     // Fill the first 'countz' elements with 0 and the rest with 1
+//     for (int i = 0; i < countz; i++) {
+//         arr[i] = 0;
+//     }
+//     for (int i = countz; i < n; i++) {
+//         arr[i] = 1;
+//     }
+
+//     // Print the sorted array
+//     for (int i = 0; i < n; i++) {
+//         std::cout << arr[i] << " ";
+//     }
+// }
+
+// int main() {
+//     int arr[] = {0, 1, 0, 0, 0, 1, 1, 0, 0};
+//     int n = 9;
+
+//     sortZO(arr, n);
+
+//     return 0;
+// }
