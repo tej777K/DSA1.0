@@ -41,7 +41,7 @@ using namespace std;
 // }
 
 
-// int main(){
+int main(){
 
 //     vector<int> arr;
      
@@ -65,33 +65,56 @@ using namespace std;
 //     cout<<*k<<" ";
 //    }
 
-// vector<int>v;
+vector<int>v;
 
-// for(int i =1 ;i<=5 ; i++){
-//     v.push_back(i);
+for(int i =1 ;i<=5 ; i++){
+    v.push_back(i);
 
-// }
-// cout<<"reference operator : [v]: "<<v[4]<<endl;
-// cout<<"v.at: "<<v.at(4)<<endl;
-// cout<<"front: "<<v.front()<<endl;
-// cout<<"back: "<<v.back()<<endl;
+}
+cout<<"reference operator : [v]: "<<v[4]<<endl;
+cout<<"v.at: "<<v.at(4)<<endl;
+cout<<"front: "<<v.front()<<endl;
+cout<<"back: "<<v.back()<<endl;
 
 
-//     return  0;
+    return  0;
 
-// }
+}
 
 
 //2D Vector 
 
-int main(){
+// int main(){
     
-    // vector<int>v;
+//     // vector<int>v;
 
-    // cout<<v.size()<<endl;
-    // cout<<v.capacity();
+//     // cout<<v.size()<<endl;
+//     // cout<<v.capacity();
 
-//  vector<vector<int> >v(5,vector<int>(10,7));
+// //  vector<vector<int> >v(5,vector<int>(10,7));
+
+// //  for(int i=0 ; i<v.size();i++){
+// //     for(int j=0 ; j<v[i].size();j++){
+// //         cout<<v[i][j]<<" ";
+// //     }
+// //     cout<<endl;
+// //  }
+
+
+// vector<vector<int> >v;
+
+// vector<int>v1(10,0);
+// vector<int>v2(5,1);
+// vector<int>v3(7,0);
+// vector<int>v4(20,1);
+// vector<int>v5(3,0);
+
+// v.push_back(v1);
+// v.push_back(v2);
+// v.push_back(v3);
+// v.push_back(v4);
+// v.push_back(v5);
+
 
 //  for(int i=0 ; i<v.size();i++){
 //     for(int j=0 ; j<v[i].size();j++){
@@ -101,29 +124,6 @@ int main(){
 //  }
 
 
-vector<vector<int> >v;
-
-vector<int>v1(10,0);
-vector<int>v2(5,1);
-vector<int>v3(7,0);
-vector<int>v4(20,1);
-vector<int>v5(3,0);
-
-v.push_back(v1);
-v.push_back(v2);
-v.push_back(v3);
-v.push_back(v4);
-v.push_back(v5);
-
-
- for(int i=0 ; i<v.size();i++){
-    for(int j=0 ; j<v[i].size();j++){
-        cout<<v[i][j]<<" ";
-    }
-    cout<<endl;
- }
-
-
 
   
-}
+// }
