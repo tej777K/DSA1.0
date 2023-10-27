@@ -62,6 +62,7 @@ return nums[0];
 };
 int main(){
    vector<int>nums={3,1,4,2,1,3};
+   
    Solution s;
    int r = s.findDuplicate(nums);
 cout<<"The Duplicate number is  : "<<r;

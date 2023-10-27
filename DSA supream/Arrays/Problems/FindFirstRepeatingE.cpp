@@ -30,4 +30,6 @@ int r = firstRepeateElement(arr,n);
 cout<<r<<endl;
 
     return 0;
+
+    
 }
