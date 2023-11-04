@@ -34,8 +34,8 @@ while(s<=e){
  
  int main(){
 
-int divisor = -1 ;
-int divident = -35;
+int divisor = -89 ;
+int divident = 0;
 
 int ans = getQutient(abs(divisor) , abs(divident));
 

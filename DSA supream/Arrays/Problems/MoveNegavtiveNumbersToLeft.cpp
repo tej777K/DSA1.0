@@ -5,35 +5,32 @@
 using namespace std;
 
 
-// void Move(vector<int>& v){
-//     int n = v.size();
-//     int i=0;
-//     int j =i+1;
+void Move(vector<int>& v){
+    int n = v.size();
+    int i=0;
+    int j =i+1;
 
-//     while(j<n || i<n){
-//         if(v[i]<0){
-//             i++;
-//         }
-//         else if(v[i]>=0){
-//             if(v[j]<0){
-//                 swap(v[i],v[j]);
-//                 i++;
-//                 j++;
-//             }
-//             else if(v[j]>=0){
-//                 j++;
-//             }
+    while(j<n || i<n){
+        if(v[i]<0){
+            i++;
+        }
+        else if(v[i]>=0){
+            if(v[j]<0){
+                swap(v[i],v[j]);
+                i++;
+                j++;
+            }
+            else if(v[j]>=0){
+                j++;
+            }
 
-//         }
+        }
 
-//         if(i>=n){
-//             return;
-//         }
-//     }
-// }
-
-
-//Another meathod
+        if(i>=n){
+            return;
+        }
+    }
+}
 
 
 void move(vector<int>& v){
@@ -58,7 +55,7 @@ void move(vector<int>& v){
 
 int main(){
     
-    vector<int>v={0,-1,-2,-3};
+    vector<int>v={0,-1,-2,-3 , 8 , 6 , 5 };
     // Move(v);
     move(v);
     cout<<"After function call : "<<endl;
