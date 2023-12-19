@@ -1,33 +1,27 @@
-#include<iostream>
-#include<string>
+// 
+
+
+#include <iostream>
 using namespace std;
+#include <string>
 
 int main(){
+   // string myStr="abcd12";
+   // int a = 5;
 
-   string st1;
-   string st2;
-   cout<<"ENter the String 1:  ";
-//    cin>>st;
-//    cout<<st<<endl;
+   //    cout<<sizeof(myStr)<<endl;
+// char a = 'a';
+// string b = "b23bb";
+// cout<<sizeof(a)<<endl;
+// cout<<b.size()<<endl;
 
-getline(cin , st1);
-// cout<<"Enter the String 2 :";
-// getline(cin , st2);
+// if (myStr[0] == '\0') {
+//    cout<<"NULL"<<endl;
+//       cout<<sizeof(myStr)<<endl;
 
-// cout<<st<<endl;
-
-// cout<<"Length of String : "<<st.length()<<endl;
-
-// cout<<st[4]<<endl;
- 
-// st.pop_back();
-// cout<<st<<endl;
-// cout<<(int)st[4]<<endl;
-
-int found = st1.find("t");
-cout<<found<<endl;
-
-// cout<<"Concatination :"<<st1 + st2; 
-
-
-}
+// }
+// else{
+//    cout<<myStr.length()<<endl;
+//    cout<<sizeof(myStr)<<endl;
+// }
+ }
