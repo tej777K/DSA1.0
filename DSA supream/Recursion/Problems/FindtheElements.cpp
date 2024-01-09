@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 
-bool find(int arr[] , int n , int index, int target){
+int find(int arr[] , int n , int index, int target){
 
 if(target == arr[index]  && index <= n){
-   return true;
+   return index;
 }
 if(index > n){
-    return false;
+    return -1;
 }
 
 
@@ -23,13 +23,13 @@ int main(){
 
 int arr[] = { 4,6,7,5,4,7,54};
 
-int target = 6;
+int target = 23;
 
-bool k = find(arr , 7 , 0 , target);
+int k = find(arr , 7 , 0 , target);
 
-if(k==true){
-    cout<<"Element found"<<endl;
+if(k != -1){
+    cout<<"Element found ==> index: "<<k<<endl;
 }else{
-    cout<<"Not Found"<<endl;
+    cout<<"Not Found"<<k<<endl;
 }
 }
