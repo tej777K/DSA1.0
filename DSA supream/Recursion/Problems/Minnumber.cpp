@@ -23,5 +23,5 @@ int res  = findMin(arr , 10, 0 , INT16_MAX );
 
 cout<<"The minnimum element in the array is : "<<res<<endl;
 
-    return 0;
+    return 0; 
 }
