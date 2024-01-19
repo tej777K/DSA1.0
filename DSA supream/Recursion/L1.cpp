@@ -1,30 +1,30 @@
 #include<iostream>
 using namespace std;
 
-// int factorial(int n){
+int factorial(int n){
 
     
-//     //base case 
-//      if(n==1)
-//      return 1;
-//     //recursinve relation
-//     int recursionkaans  = factorial(n - 1); 
+    //base case 
+     if(n==1)
+     return 1;
+    //recursinve relation
+    int recursionkaans  = factorial(n - 1); 
 
-//     //Processing 
-//     int finalans = n * recursionkaans;
+    //Processing 
+    int finalans = n * recursionkaans;
 
-//     return finalans;
+    return finalans;
 
     
-// }
+}
 
 
-// int main(){
+int main(){
 
-// cout<<"Factorial of 5 :"<<factorial(5)<<endl;
+cout<<"Factorial of 5 :"<<factorial(5)<<endl;
 
-//     return 0;
-// }
+    return 0;
+}
 
 // int counting(int n){
 
@@ -74,24 +74,24 @@ using namespace std;
 
 ///Fibinacci Series 
 
-int  Fib(int n){
+// int  Fib(int n){
 
-    if(n==0){
-        return 0;
+//     if(n==0){
+//         return 0;
         
-    }
-    if(n==1){
-return 1;        
-    }
+//     }
+//     if(n==1){
+// return 1;        
+//     }
 
    
-     int ans =  Fib(n-1) + Fib(n-2);
-     return ans;
+//      int ans =  Fib(n-1) + Fib(n-2);
+//      return ans;
 
-}
+// }
 
-int main(){
+// int main(){
 
- cout<<Fib(7);
-    return 0;
-}
+//  cout<<Fib(7);
+//     return 0;
+// }
