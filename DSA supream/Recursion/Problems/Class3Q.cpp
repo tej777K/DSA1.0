@@ -111,7 +111,7 @@ void findSubSequences(string str , string output , int index){
 
 
 
-        //Include 
+        //Include  
 //Add Ch charactoe to the out string 
 
 output.push_back(ch);
